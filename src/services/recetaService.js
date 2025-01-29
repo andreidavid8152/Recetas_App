@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/recetas";
+const API_URL = "https://recetasapi-production.up.railway.app/api/recetas";
 
 export const obtenerRecetas = async () => {
     const res = await axios.get(API_URL);
